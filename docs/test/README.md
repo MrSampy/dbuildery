@@ -32,4 +32,8 @@
 ![Update1](../../docs/test/Update/3.jpg)
 ![Update2](../../docs/test/Update/4.jpg)
 
-
+## Тестування помилок
+![Exceptions1](../../docs/test/Exceptions/1.jpg)
+![Exceptions2](../../docs/test/Exceptions/2.jpg)
+![Exceptions3](../../docs/test/Exceptions/3.jpg)
+![Exceptions4](../../docs/test/Exceptions/4.jpg)
