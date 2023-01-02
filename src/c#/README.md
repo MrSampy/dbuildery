@@ -28,4 +28,4 @@ MySQL Connector/NET can be installed from precompiled libraries by using MySQL i
 
 This driver can also be complied and installed from the sources available in this repository. Please refer to the documentation for [detailed instructions](https://dev.mysql.com/doc/connector-net/en/connector-net-installation-source.html) on how to do it.
 
-
+# [Посилання на основний репозиторій](https://github.com/neliudochka/dbuildery)
