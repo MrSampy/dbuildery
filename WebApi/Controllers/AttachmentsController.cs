@@ -15,13 +15,13 @@ public class AttachmentsController : Controller
         AttachmentService = new AttachmentService();
     }
 
-    // GET
+    // GET: api/attchments
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Attachment>>> Get()
     {
         return new ObjectResult(await AttachmentService.GetAllAsync());
     }
-    
+    // GET: api/attchments/1
     [HttpGet("{id}")]
     public async Task<ActionResult<Attachment>> GetByID(int id)
     {
@@ -36,7 +36,7 @@ public class AttachmentsController : Controller
             return BadRequest(ex.Message);
         }
     }
-    
+    // POST: api/attchments
     [HttpPost]
     public async Task<ActionResult> Add([FromBody] Attachment value)
     {
@@ -51,7 +51,7 @@ public class AttachmentsController : Controller
             return BadRequest(ex.Message);
         }
     }
-    
+    // PUT: api/attchments
     [HttpPut]
     public async Task<ActionResult> Update([FromBody] Attachment value)
     {
@@ -66,7 +66,7 @@ public class AttachmentsController : Controller
             return BadRequest(ex.Message);
         }
     }
-
+    // DELETE: api/attchments/1
     [HttpDelete("{id}")]
     public async Task<ActionResult> DeleteById(int id)
     {
